@@ -1,0 +1,28 @@
+string CREATE = create
+string DESTROY = destroy
+string DESTROY_ALL = destroy all
+string SET_POSE = set pose
+string STEP = step
+string GET_POSE = get pose
+string type
+
+# If type == CREATE:
+#   Specify object_name, mesh_name (pringles_1k.obj), and camera_info
+# If type == DESTROY:
+#   Specify object_name
+# If type == DESTROY_ALL:
+#   Other fields are unused.
+# If type == SET_POSE:
+#   Specify object_name and pose.
+# If type == STEP:
+#   Specify object_name and depth_image.
+# If type == GET_POSE:
+#   Specify object_name, pose will be returned.
+
+string object_name
+string mesh_name
+sensor_msgs/CameraInfo camera_info
+geometry_msgs/Pose pose
+sensor_msgs/Image depth_image
+---
+geometry_msgs/Pose pose

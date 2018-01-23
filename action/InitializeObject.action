@@ -1,0 +1,6 @@
+string frame_id
+string mesh_name
+geometry_msgs/Pose initial_pose
+---
+geometry_msgs/Pose pose
+---
