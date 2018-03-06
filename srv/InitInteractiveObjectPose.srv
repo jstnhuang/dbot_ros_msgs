@@ -1,0 +1,4 @@
+# Initialize an object pose programmatically (without user clicking on an interactive marker)
+string mesh_name
+geometry_msgs/Pose pose
+---

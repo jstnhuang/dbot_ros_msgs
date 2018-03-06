@@ -28,6 +28,7 @@ add_service_files(
   TrackObject.srv
   FindObject.srv
   MultiTrack.srv
+  InitInteractiveObjectPose.srv
 )
 
 add_action_files(
