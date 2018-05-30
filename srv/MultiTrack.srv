@@ -27,3 +27,4 @@ geometry_msgs/Twist twist
 sensor_msgs/Image depth_image
 ---
 geometry_msgs/Pose pose
+geometry_msgs/Twist twist
