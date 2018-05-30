@@ -13,7 +13,7 @@ string type
 # If type == DESTROY_ALL:
 #   Other fields are unused.
 # If type == SET_POSE:
-#   Specify object_name and pose.
+#   Specify object_name, pose, and twist
 # If type == STEP:
 #   Specify object_name and depth_image.
 # If type == GET_POSE:
@@ -23,6 +23,7 @@ string object_name
 string mesh_name
 sensor_msgs/CameraInfo camera_info
 geometry_msgs/Pose pose
+geometry_msgs/Twist twist
 sensor_msgs/Image depth_image
 ---
 geometry_msgs/Pose pose
